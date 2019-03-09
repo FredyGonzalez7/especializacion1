@@ -8,6 +8,10 @@ import java.io.IOException;
 
 public class ExtraerDatoCVLAC {
 
+    private ExtraerDatoCVLAC () {
+
+    }
+
     public static Investigador  getDatos(String url) {
 
         Investigador investigador = null;
